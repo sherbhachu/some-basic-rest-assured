@@ -1,0 +1,11 @@
+{
+    "request": {
+        "method": "DELETE",
+        "urlPathPattern": "/rest-garage-sample/garage/slots/.*"
+    },
+    "response": {
+        "status": 200,
+		"headers": { "Content-Type": "application/json" },
+        "jsonBody": {}
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/rest-garage-sample/garage"
+    },
+    "response": {
+        "status": 200,
+		"headers": { "Content-Type": "application/json" },
+        "jsonBody": {
+            "name":"Acme garage",
+            "info":{
+                "slots":150,
+                "status":"open"
+            }
+        }
+    }
+}
